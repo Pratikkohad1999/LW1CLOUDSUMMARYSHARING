@@ -1,0 +1,19 @@
+1.In today's session we saw the importance of Cloudtrail and Security groups.
+Cloudtrail is a service that enables governance,compliances and operational auditing and soon.
+Security Groups act like a firewall for your Amazon EC2 instances controlling both inbound and outbound traffic. 
+
+2.Some commands in CLI for cloudtrail which includes:-
+>aws>cloudtrail>help
+>aws>cloudtrail>lookup-events help
+>aws>cloudtrail>lookup-events --query "Events[0]"
+and many other.
+
+3. Overview on Elastic Block Storage and EC2, and soon
+
+4.Diff b/w block and object storage
+4.1. Block storage types:- 1.Permanent:-Persistant storage such as P.D 2. Ephemeral:-The ephemeral storage in an instance, is a temporary storage in nature, one should not depend on these disks to keep long-term production data or even other important data that you would not like to misplace when an instance stop happens, for example, stopping and starting an instance or terminating the instance.
+
+5.SSH(secure shell):-Connect to linux servers.
+5.1. Creation of volume using CLI and webui
+
+6.CLI Task was done successfully...
