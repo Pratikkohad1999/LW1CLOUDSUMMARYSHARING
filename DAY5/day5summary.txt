@@ -1,0 +1,10 @@
+
+
+1.In today's session we saw the importance of Cloudfront and Amazon S3.
+2.Cloudfront is a Content Delivery Network provided by AWS.By using CDN,companies can accelerate delivery of files to users over internet while reducing the load on their own infrastucture.
+3.It is convenient to use as it speeds up access to your files to end usersand it acts as a distributed cache. 
+4.Amazon S3 is also called as global storage,designed to make web-scale computing easier for developers. Amazon S3 has a simple web services interface that you can use to store and retrieve any amount of data, at any time, from anywhere on the web.
+5.Another important concept taught was of Edge Locations.Edge locations is where end user access services and is a small setup in diff loc that provides low latency connectivity by providing static contents available from nearest loc of request.Due to which access time is less and response is faster.
+6. Implementation of cloudfront in AWS by various steps.(Pratik kohad)
+7.Hit,miss,forwarding,origin concepts were introduced.Blacklist and whitelist concept was also introduced.
+
