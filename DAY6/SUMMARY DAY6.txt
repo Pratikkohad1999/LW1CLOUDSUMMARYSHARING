@@ -1,0 +1,9 @@
+1.In today's session we saw the importance of AWS Global Accelerator and its implementation,Creation of Snapshot(backup your data ) and details about cloudfront.
+2.Snapshot  is used for creating point-in-time reference to data that resides in the underlying storage volume for data protection purposes.Charges are made on amount of data store.
+3.AWS Global Accelerator:-
+Global Accelerator is the resource you create to direct traffic to optimal endpoints over the global network.Many other concept of listener and endpoints where taught.Support TCP and UDP protocols.
+4listener:- listener processes inbound connections from clients to global accelerator based on port and protocol you configure.
+5Endpoints-Associated with specific AWS regions
+6. Implementation of Snapshot and global Accelerator in AWS .
+
+
