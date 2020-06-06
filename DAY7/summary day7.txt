@@ -1,0 +1,9 @@
+1.In today's session we saw the importance of Docker,key generation using the software called putty,puttygen and creation of backup using snapshot.
+2.Docker is software platform for building ,distributing and running docker containers.
+3.Docker Container helps the users to package up an application with all of the parts , such as libraries and other things, and deploy it as one package.
+4.puttygen is a key generator tool for putty whereas putty is open source software available with source code and is developed and supported by a group of volunteers.
+5.Some commands in CLI for Docker are as follows:- >rpm -q docker -ce
+>service docker start
+>docker ps
+>docker image and many more.
+
