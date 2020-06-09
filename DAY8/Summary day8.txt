@@ -1,0 +1,6 @@
+1.In today's session we saw the importance of  multi cloud computing,hybrid multi cloud computing and Terraform.
+2.Terraform is a open source software. Terraform is an infrastructure provisioning tool. (uses HCL language)Terraform talks to VMWare, AWS, GCP, and deploys infrastructure.
+3.A small overview on Terraform by launching EC2 instances .Using Terraform we can launch many other services in AWS.
+4.Multicloud is a cloud approach made up of more than 1 cloud service, from more than 1 cloud vendor-public or private.It involves 2 public cloud environments or 2 private cloud environments. 
+5.Hybrid cloud refers to the presence of multiple deployment types with some form of integration between them.
+6.Launching of the instance using command in command line interface by downloading and  using Terraform.
