@@ -1,0 +1,7 @@
+1.In today's session we saw the importance of  Cloud formation ,variable creation in terraform Elastic IPs and notification(alerts) on budgets. 
+Cloud formation helps you model and set up your Amazon Web Services resources so that you can spend less time managing those resources.
+3.CloudFormation makes sure that dependent resources in your template are all created in the proper order.
+4.Concept of creating variables and printing them using output function. and also the concept of EIP(Elastic IP address) and budget management in AWS console.
+5.We learned about various other things such aspublic IP -> dynamic and static IP provided by aws instance is dynamic mostly,Elastic IP to attach static public IP,associating EIP to our instance,about clear text and data-in-rest,locking or encrypt our hard disk,data-in-rest encryption,Linux Unified Key Setup encryption,encrypting the EBD during creation and  existing  EBS by creating its snapshot and then creating volume & encrypting it.
+6.Terraform uses the concept of idempotent.
+
