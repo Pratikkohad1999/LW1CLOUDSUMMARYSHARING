@@ -1,0 +1,12 @@
+1.In today's session we saw the importance of  Terraform Provisioners 
+2.Provisioners are used for executing scripts or  commands on a local or remote machine as part of resource creation/deletion.
+3.We saw the importance of both local-exec and remote-exec Provisioners.
+4.local-exec provisioner helps run a script on instance where we are running our terraform code, not on the resource we are creating.
+5.for ex:-provisioner "local-exec" {
+    command = "echo ${aws_instance.testInstance.public_ip} >> public_ip.txt"
+  }
+} 
+5.remote-exec provisioner helps invoke a script on the remote resource once it is created.We can’t provide any arguments to script in remote-exec provisioner.
+6.Cloning Url from our own github repository.
+7.If we want to run without any resource, we can use “null resource”.
+8.Various commands in terraforms are as follows:-terraform validate,terraform init,terraform destroy,terraform apply and many more.
