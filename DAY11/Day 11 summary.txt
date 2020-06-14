@@ -1,0 +1,15 @@
+1. In today's session we saw the importance of Kubernetes,Minikube,horizontal,vertical scaling(scaling out ,scaling in,scaling up ,scaling down)docker and container cluster.
+2. Kubernetes is a popular container orchestration tools around; it allows you to deploy and manage multi-container applications at scale. While in practice Kubernetes is most often used with Docker, the most popular containerization platform.
+3.  Kubernetes manages docker and docker run the O.S. or uses container.
+Kubernetes does not know how to launch O.S. 
+4.  Minikube is a tool that lets you run Kubernetes on a laptop or other local machine.
+5.  Vertical Scaling usually means upgrade of server hardware whereas  horizontal scaling involves adding more processing units or phyiscal machines to your server or database.
+6. Many commands where taught which includes:-
+minikube -h
+minikube start
+minikube start --vm - driver =virtualbox
+kubectl get pods
+kubectl delete all
+kubectl  get all
+kubectl expose deployment myweb --type =Nodeport 
+and many more
