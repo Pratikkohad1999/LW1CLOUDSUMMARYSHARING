@@ -1,0 +1,11 @@
+1. In today's session we saw the importance of Pod, brief overbiew of YAML language which is used in kubernetes , controller(Replication Controller and replica set)and some difference between JSON and YAML Language.
+2.kubernetes have two types of controllers for fault tolerance: RC and RS
+A replication controller is one of the features of Kubernetes that you'll interact with on a regular basis to launch one or more instances of your applications. 
+3.  A replication controller(old version) is a structure that enables you to easily create multiple pods, then make sure that that number of pods always exists. when pod crashes RC is used as a replacement.
+4.IP changes tags never changes.To configure  kubernetes by code we have to use YAML language or terraform HCL.
+5.Concept of launching the pods from the YAML code and also launch the replica controller.
+6. Some of the commands are as follows:-
+kubectl label pods myweb dc=IN
+kubectl get pods   --show-labels
+kubectl label pods myweb2  dc=US
+and many more.
