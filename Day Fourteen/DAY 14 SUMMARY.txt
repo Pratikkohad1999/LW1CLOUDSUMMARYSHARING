@@ -1,0 +1,12 @@
+1. In today's session we saw the importance of Pod,Replica Set ,EKS(Elastic Kubernetes Services)and launching wordpress and mysql using CLI.
+2. Replica Set ensures how many replica of pod should be running. It can be considered as a replacement of replication controller. The key difference between the replica set and the replication controller is, the replication controller only supports equality-based selector whereas the replica set supports set-based selector.
+2.1 Replica set mainly uses both Set-based selectors and controller-based selector.
+3. The Concept of creating replica set(RS) using "rs.yml".The concept of accessing to the Kubernetes cluster from the kubectl by using the exec keyword.
+4. kubernetes never manage operating system or virtual machines it  manages Docker.
+5. Setting env variables and making them permanent.
+5.1  launching Wordpress and mysql using CLI and configuring it .
+6. Some of the commands are as follows:-
+kubectl expose  rs  wprs  --type = Nodeport   --port =80
+kubectl  exec -i  -t  rsweb1-dsngp  --bash
+kubectl -it  mypod1  --bash
+and many more.
