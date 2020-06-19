@@ -1,0 +1,10 @@
+1.  In today's session we saw the importance of EFS (Elastic file system),centralized storage,STAAS,Storage Area Network(SAN) and implementation and configuration of EFS.
+2. Amazon S3 can be attached to the muitiple operating system.It is better to create one S3 rather than creating muitiple block storage (EBS).But S3 has some issues that is  we cannot edit the file which is there in S3 bucket or(uploaded in S3 bucket).So ,we go for EFS.
+3.  AWS Elastic File System (EFS) is one of three main storage services offered by Amazon.
+3.1  Amazon EFS is an AWS file sharing service that lets you manage file shares, like those used on traditional networks, and mount them on cloud or on-premises machines using the NFS protocol.
+3.2  The main differences between EBS and EFS is that EBS is only accessible from a single EC2 instance in your particular AWS region.
+3.3 While EFS allows you to mount the file system across multiple regions and instances. 3.4 Finally, Amazon S3 is an object store good at storing vast numbers of backups or user files
+4. STAAS:-Storage as a Service ) is a cloud computing model in which subscribers can rent storage from cloud providers.
+5. The ephemeral storage in an instance, is a temporary storage in nature, one should not depend on these disks to keep long-term production data or even other important data that you would not like to misplace when an instance stop happens.
+6  SAN are commonly based on Fibre Channel (FC) technology that utilizes the Fibre Channel Protocol (FCP) for open systems and proprietary variants for mainframes.
+7.NFS is a central server of storage in which we can store files as well as edit them as according to our preferences.Kubernetes use Ephemeral storage by default.
