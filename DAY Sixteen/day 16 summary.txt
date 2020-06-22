@@ -1,0 +1,15 @@
+1.In today's session we saw the importance of Persistent volume(PV),Persistent volume claim(PVC) and Secret.
+2.Persistent Volume :-A type of Volume that lives within the Kubernetes cluster, and can outlive other Kubernetes pods to retain data for long periods of time.
+3.A persistent volume offers persistent storage that enables your data to remain intact, regardless of whether the containers to which the storage is connected are terminated.
+4.A PersistentVolumeClaim is a request for a resource with specific attributes, such as storage size.A PersistentVolumeClaim is used by a pod as a volume. 
+when we delete or restart pod data,the data inside it gets deleted so we use pvc to make that data permanent.
+5.PVC are of two types:-1.Static 2.Dynamic
+5.1 Secret:- Secret is an objects used to store sensitive data such as user name and passwords with encryption.Ways of creation of secrets in kubernetes are as follows:- creation from txt files and creation from yaml file.
+5.2 Learned about creation of secret using terraform.
+6.Some of the commands  are as follows:- 
+>kubectl get pvc
+>kubectl delete pvc --all
+>kubectl get pv
+>kubectl get sc 
+and many more.
+
