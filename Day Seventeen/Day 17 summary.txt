@@ -1,0 +1,19 @@
+1. In today's session we saw the importance of Elastic load Balancer(ELB) in AWS,Service and types of services in kubernetes ,DMZ
+1.1 DMZ :- DMZ enables access to some systems from an external network .
+1.2 Uses of kustomize tool are as follows:-,customizing resources ,generating resources from other resources.
+2. Elasic Load Balancer is a purpose built service for distributing workloads.Elastic Load Balancing scales traffic to an application as demand changes over time. 
+3. Elastic Load Balancing can also be used in an Amazon Virtual Private Cloud  to distribute traffic between application tiers in a virtual network that you define.
+4. K8s Service(logical sets of pods) can be defined as an abstraction on the top of the pod which provides a single IP address and DNS name by which pods can be accessed. 
+5. With K8s Service, it is very easy to manage load balancing configuration. It helps pods to scale very easily.
+5.1  We learned various other concepts such as  threshold created from metrics of the webserver which is monitored by cloud watch in AWS, creation of  a program for LB, we allocate the IP and port to the LB program where client  is connected to -->program is connected to-->container.Round robin is used behind the seen for L.B.
+5.2 Types of services are as follows:-
+Cluster IP :- Cluster IP helps in restricting the service within the cluster. It exposes the service within the defined K8s cluster.
+Nodeport :- Nodeport expose the service on a static port on the deployed node. 
+Load Balancer :-LB service type exposes the service externally using the load balancer of your cloud provider. 
+6. Some of the commands  are as follows:- 
+>kubectl get svc
+>kubectl run webpod --image=vimal13/apache-webserver-php
+>kubectl label pods webpods dc=IN
+>kubectl get all
+and many more.
+
