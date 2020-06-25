@@ -1,0 +1,10 @@
+1. In today's session we saw the importance of Openstack(how to setup openstack private cloud),diff b/w AWS and openstack,Self service and Abstraction layer in Cloud Computing,Creation of Yum server,relevance of RHOSP 13 with Openstack queen version.
+1.1 OpenStack is an open source platform that uses pooled virtual resources to build and manage private and public clouds.for ex:-HP uses HP-helien its own cloud made using openstack.
+ cloud1.2 OpenStack is used for creating and maintaining a cloud Infrastructure as a Service (IaaS).
+2. AWS-  AWS is not opensource, how it works internally, we can't able to know. We can only use it as an user. This makes a difference with OpenStack.After particular amount of time ,it charges on its service.The first conceptual difference between AWS and OpenStack is about multi-tenancy.
+OpenStack-It is also a platform where we can perform the tasks that aws provides. But OpenStack is an opensource platform. We can create our own cloud and customize things according to our needs.  
+3. The abstraction layer will allow users to manipulate VM as objects and simplify the process of porting applications to cloud computing. 
+4. Self-service is the service, where the user can go and request for required resources.
+5.creation of yum server.
+6.OpenStack Queens, the 17th version offers emerging use cases like containers, NFV, edge computing and machine learning.
+
