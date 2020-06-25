@@ -1,0 +1,16 @@
+1. In today's session we saw the importance of Kubelet,kube scheduler,kubeadm,kube Api,kubeproxy and creation of multi-node k8s cluster(using RHEL-8 CLI VM as an O.S for master and slave nodes).
+2. Configuring the environment first then setup lots of configuration like installing RHEL 8.0(Iso file) then configuring yum then setup kubectl  in different different slaves 
+3. Setting up kubelet in all of the master and slaves.Setting up kubelet, kubeadm, kube Schedular, Apiserver, Kubecontroller in Multi-node Cluster of K8s. 
+4. Concept of  token provided by the master vm for K8s.Setting up the Flannel for Network in master K8s.  Using token provided by the Master to connect the slave to master .
+5. Kubeadm:- fast paths for creating Kubernetes clusters
+     kubeproxy:-maintains network rules on nodes.
+     kubelet:- Manages the control plane components.(executes instruction) 
+     KubeApi:-validate and configures data
+     etcd - etcd is an open source distributed key-value store used to hold and manage the critical information. 
+kube scheduler:-Schedules pods
+6. Some of the linux commands  are as follows:- 
+>kubectl get pods -n  kube-system
+>kubectl get nodes  --kubeconfig config
+>kubectl get nodes
+and many more.
+
