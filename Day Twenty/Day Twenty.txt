@@ -1,0 +1,12 @@
+1. In today's session we saw the importance of some of the important Openstack services such as Glance,Horizon,Nova,how to upload qemu image and launch instance in openstack.
+2. IP also comes with netmask if IP changes the netmask also changes. So, in today's session we saw how to keep the ip same whenever we open the particular thing.
+3. Horizon provides a dashboard for OpenStack, where the user can login and self-provision their infrastructure resources. Here, the admin has the right to define the limit on the resources.
+4. Openstack uses qcow2 format for images.We can create a custom image in OSP whereas AWS cannot provide customized image.
+5  Glance image services include managing, and retrieving virtual machine images. 
+5.1 Nova is scalable and provides self-service style access to compute resources like virtual machines and containers.Nova creates the computing resources of the cloud.
+6. QEMU(open source) is a type 2 hypervisor that runs within user space and performs virtual hardware emulation.
+7. Various cmd in linux are as follows:-
+>glance image-list
+>cat  keystonerc_demo
+>rpm -qa  |  grep openstack
+and many more.
