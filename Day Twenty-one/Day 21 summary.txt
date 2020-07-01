@@ -1,0 +1,13 @@
+1. In today's session we saw the importance of Nova,Virtualization,Hypervisor and how to Launch an instance on Openstack from CLI.
+2. Nova – It handles the Virtual machines at compute level and performs other computing task at compute or hypervisor level.
+2.1 Neutron – It provides the networking functionality to VMs, Compute and Controller Nodes.
+3. Nova (Compute) Cloud comprises following components: API server,Message Queue,,(Rabbit-MQ Server),Compute Workers (Nova-Compute),Network controller (Nova-Network),Volume Worker and Scheduler
+4.Virtualization   allows you to use a physical machine’s full capacity by distributing its capabilities among many users or environments.
+5. In virtualization technology,hypervisor is a software program that manages muitiple O.S(or muitiple instances of the same O.S) on a single computer system.
+Types of hypervisor that Openstack supports are:- KVM,Containers,Xen and HyperV and VMware.
+6. QEMU(open source) is a type 2 hypervisor that runs within user space and performs virtual hardware emulation.
+7. Various cmd in linux are as follows:-
+>nova service-list
+>neutron net-list
+>nova flavor-list
+and many more.
