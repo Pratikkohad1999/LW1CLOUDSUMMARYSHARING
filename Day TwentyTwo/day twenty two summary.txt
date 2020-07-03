@@ -1,0 +1,11 @@
+1. In today's session we saw the importance of Deployment in k8s,need of deployment, various strategies in Kubernetes, rollout and rollback
+2. Deployments are  higher version of replication controller. They manage the deployment of replica sets. They have the capability to update the replica set and are also capable of rolling back to the previous version.
+3. Deployment strategies :-Recreate:- This feature will kill all the existing RC . It will result in downtime when the old pods are down and the new pods have not come up,
+4. Ramped Strategy: This feature gradually brings down the old RC and brings up the new one.It deletes the pod which is not in use.  Load Balancer will not send clients to this pod,Load Balancer will send clients to the new pod launched,At all times, few old pods and few new pods are available in this process.
+5. Rollback:- rollback will revert the changes literally – if a file was added before, it will be removed, if a change was made, it will be unmade, if a file was deleted it will be added back.
+6. HVM allows us to launch a virtual machine on top of a virtual machine
+7. Various cmd  are as follows:-
+>kubectl get deployment
+>kubectl expose deployment/rsweb1  --type=NodePort   --port=80
+>kubectl rollout status deploy/rsweb1
+and many more.
