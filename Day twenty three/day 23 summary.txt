@@ -1,0 +1,27 @@
+1. In today's session we saw the importance of NAT Gateway,Internet Gateway,IP,Netmask,Pre-requisites needed to connect different instances,NIC,Switch,Router,Bridge,Concept of private and public IPs.Many other concept such as:-Port addressing Tranlation,Source Network Address Translation,Routing Table,,Concept of br-int,Software-Defined Networking (SDN) and Destination network address translation.
+1.1 AWS VPC and Openstack Neutron working as Network as a Service (NAAS ).
+2. Nat gateway is used to enable instances present in a private subnet to help connect to the internet or AWS services.
+3. Switch operates at Layer 2 of  OSI Model,Whereas Router operates at Network layer of OSI Model.
+4.Internet gateway is a network node that connects two different networks that use different protocols (rules) for communicating.
+5.Pre-requisites for two systems A and B to get connected:
+> Devices with private IP addresses cannot connect to the Internet directly.Likewise,computers or other devices outside the local network cannot connect directly to a device with a private IP. 
+>both systems should have a NIC.
+>both NIC should have an IP address.
+>Public IP can only get connected to a public IP in the same network.
+>If Ip of one comp is private and other is also private and belong to same network in this condition we can ping.
+>Both should have routing table set.
+> there can be wired or wireless connectivity between A and B.
+>IPs belong to different network,we use router to connect them.If IPs belong to the same network, we require a switch/hub to connect them 
+6.Hotspot:-Technically it is a L3 bridge.
+7.we generally use SNAT,when we are required to change the private address or port into a public address.Whereas DNAT allows a host on the outside to connect to a host on the inside.
+In SNAT sourceIp address changes and destination ip address is maintained but in DNAT sourceIp address  is maintained and destination ip address is Changes.
+8.SDN:- The SDN layer essentially acts a virtual software switch or router in place of ( the physical network devices.
+9.Static IP and Dynamic IP
+DHCP server Dynamically provides the IP.
+AWS-EIP  and openstack floating IP Statically provides the IP.
+
+10.Various cmd  are as follows:-
+>route print
+>route del -net 0.0.0.0
+>ovs
+and many more.
