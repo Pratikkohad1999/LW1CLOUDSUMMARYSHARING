@@ -1,0 +1,12 @@
+1. In today's session we saw the importance of Infrastructure as a service,network as a service,subnetting,routing table,Internet gateway,NACL
+2. VPC: VPC is a isolated network for cloud resources. VPC gives you more control over how your resources communicate. There are no additional charges for creating and using VPC in AWS. 
+3.(NACL)Network Access Control Lists is a security layer for your VPC that controls the traffic in and out of one or more subnets.
+4. If you do not explicitly create NACL, then the default NACL automatically associated with the subnet.
+5. A subnet can be associated with the single Network ACL at a time.
+6.When ssh remote login is done to public IP, it connect you to the private IP. For achieving this and for going outside the world we have to set the gateway using routing tables and associate our subnet with this routing table. So it will tell our subnet about the location of gateway.
+7.IG:-There is only one IG present in one VPC.One public facing router in aws is known as internet gateway which contains one rule for DNATING in router. 
+8. Dividing a network into two or more networks is called subnetting. AWS provides two types of subnetting one is Public which allow the internet to access the machine and another is private which is hidden from the internet.
+9.If we have 256 IPs, (total:5 ips are reserved) Starting IP is always reserved for Network name , last IP is always reserved for broadcasting, IP-1 reserved for router, IP-2 reserved for DHCP server and IP-3 reserved for further coming. So remaining 251 IPs we can allocate to our VMs.
+10.Learned to configure IG,Route tables,private and public subnet in our own vpc.
+11. we are not able to remote login through SSH to the Instance which has private IP.
+12. Muitiple subnets are created in order to manage the security and services.
