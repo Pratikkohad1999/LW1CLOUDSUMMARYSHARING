@@ -1,0 +1,11 @@
+1. In today's session we saw the importance of Bastion Host(JumpBox),Uses of Bastion Host,Ingress/inbound rule,egress/outbound rule,security groups in AWS,NAT gateway and Creation of  NAT Gateway in AWS.
+2. Security Groups:-SG is like a  firewall which is controlling the traffic to your EC2 instances.You can apply multiple security groups to a single EC2 instance or apply a single security group to multiple EC2 instances.
+3.If you don't specify a security group, EC2 uses the default security group.
+4. Inbound rules means control the  incoming traffic coming to your EC2 instances. For that you have to add inbound rule. 
+5. Outbound rules  means control the outgoing traffic from your EC2 instances. To connect internet or any browser you have to add outbound rule. 
+6. Outbound rules means you initiate the connection and the traffic starts flowing outward of your computer to the provided destination  .
+7. NAT gateway is used to enable instances present in a private subnet to help connect to internet.They don’t support IPV4 traffic. NAT gateway is not a free service, it charges upto $0.045per/hour.
+8.Bastion Host reduces the risk of attacks on an infrastructure. It is used to manage EC2 instances using SSH or RDP securely. Bastion hosts are also known as jump boxes.
+9.If you SSH or RDP to an instance in a private subnet, you need to configure a Bastion host. You cannot use NAT Gateway as a Bastion host.
+10.Discussed about minions/slave(The machines that acts as workers/slave),Attaching and detaching public ip to instance and Launching instance and adding firewall to MySQL.
+ 
