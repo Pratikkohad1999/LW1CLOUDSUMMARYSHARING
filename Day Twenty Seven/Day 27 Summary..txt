@@ -1,0 +1,23 @@
+1. In today's session we got to know about public network ,private network,DNATing,SNATing,gateway setting in openstack after adding router and network card, security group,(ingress/inbound and egress/outbound rules which we attach with the instance for connectivity),Keypair for the instances,creation of subnets,bridging,Quotas(limitation on usage of resources),switches and router connectivity in Openstack.
+2.Launching user/tenant in openstack this is done by login through admin account.
+3.Launching a project and providing the role to the tenant.
+4.create two subnet with DHCP server.
+5.create two subnet that connects to the switch.
+6.Addition of Network card and router.
+7.Connect the router to the two labs created by us in openstack. 
+8.Adding Image using CLI and WebUI IN openstack.
+9.Configuring Security groups and providing them inbound rules.
+10. Then  we have to attach real network card to the  router we have created and then set Gateway to connect to real world Router to provide Internet Connectivity to Instance.
+11.By default , No one can come  from Internet to O.S . So,we have to set DNAT.We also enable SNAT.For internet connectivity and by default its already enabled when we create the setup
+12.DNAT is used to redirect traffic destined to a virtual host (identified by the original destination IP address) to the real host (identified by the translated destination IP address).
+12.1 Public Network:-A public network is a network to which anyone can connect.provider networks to connect instances directly to an external network.
+12.2 Private Network :-A private network is a network which is only known to the users who use it.Private network is created inside openstack cloud.
+13. For this , we have to create Floating IP and associate this FloatingIP to the instance we have created . 
+Automatic one rule is created inside the IP tables and it is known as DNAT.
+14.Instance will use Floating IP only.
+14.1 Finally ,we have to make our network permanent So we have use cmd 
+cd /etc/sysconfig/network-scripts/
+15. Then add some rules in 
+ifcfg-enp0s3 and ifcfg-br-ex file.
+
+
