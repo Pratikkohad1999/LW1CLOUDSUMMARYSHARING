@@ -1,0 +1,17 @@
+1. In today's session we got to know about Concept of Amazon RDS,Amazon DocumentDB,Magnum,elastic cache, overview on hybrid multi cloud and multi cloud,concept on setting up Amazon RDS,Overview on RDBMS,graph database and creation of database on Amazon cloud.
+2.Amazon RDS:- .Amazon RDS behind the scene uses Elastic block storage. (EBS)
+2.1 RDS is a Database as a Service (DBaaS) that automatically configures and maintains your databases  in the AWS cloud. Amazon Relational Database Service is provided by AWS Cloud
+3. Amazon DocumentDB  uses MongoDB database in background and used to store the documents.
+4.Different data bases has different data models each have there own  use cases. Each uses key-value pair database.
+5.Elastic Cache is a  AWS service that is used to store cache data.
+6. When we have to store key-value pair data, dataset used in this case is Cassandra.
+7.Amazon Keyspaces :- Amazon KeySpaces is used to store key-value pairs which use Cassandra database in background.
+8.There are basically 2 types of database, RDBMS and NOSQL( Graph, mongoDB,Caching (Memcached/Redis) applications) which are used to store structured, and multi data type respectively.
+9.After setting up the Amazon RDS a endpoint URL is provided to pass/access data in the database. 
+10.Neptune is used for the graph databases.
+11.HBase   has a use case in storing chat history in Facebook.
+12.We can set up WordPress inside docker engine container on top of  private cloud (OpenStack) and RDS can be launched as a DB in AWS. 13.Amazon RDS is set up & available for use , Using MySQL client,We can use Endpoint URL  to connect it from outside .
+14.We can launch WordPress using  instance IP & configure MySQL using the endpoint URL for host, DB user & password credentials. Once successfully configured , the data will be stored inside MySQL database which will be permanent.
+15.Multi-cloud setup using Amazon RDS (MySQL) as a back-end database and WordPress as front-end.
+16. Magnum is a openstack service that is used to deploy and manage the container.It provides CaaS (Containers as a Service).
+
