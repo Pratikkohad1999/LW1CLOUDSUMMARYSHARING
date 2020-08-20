@@ -1,0 +1,25 @@
+1. In today's session we got to know about Right Use cases of Ansible and terraform tools,
+ AWS ELB and types of ELB and also setup a Classic Load Balancer architecture.
+1.1 Elastic load balancer used to manage load balancer is an aws service. It is an subservice of ec2 instance.
+2.There are two ways to create ELB which are as follows:-
+-->Can create own L.B (Haproxy)
+-->Managed Service.
+3.The purpose of Load Balancer is to balance the incoming traffic & increase the performance of application. 
+4.There are 3 advantages of using Load Balancer
+1. No need to assign Public IP to EC2 instances , hence its secure
+2. Launching EC2 instances in multiple AZ will help in Disaster Recovery (DR)
+3. Client need to be aware of IP of only Load Balancer rather than IPs of EC2 instances.
+
+5.There are 3 types of Load Balancers
+1. Classic Load Balancer-    supports HTTP/HTTPS, TCP traffic,free.
+2. Network Load Balancer :  used for heavy loads & high performance,not free.
+3. Application Load Balancer - This also supports HTTP/HTTPS and TCP traffic,free.
+
+6.To setup L.B , we need to launch EC2 instances.
+While launching instances we can provide a script to set up apache webserver using linux commands , in user data section.
+!/bin/bash
+yum install httpd -y ( install apache webserver on Ec2 instance without prompting)
+echo  '<pre> <?php print(`ifconfig`) ?> >/pre>' > /var/www/html/index.html ( this will set up web page )
+service httpd start ( to start apache webserver).
+
+7.Terraform will be able to contact kubernetes only if cluster is configured.

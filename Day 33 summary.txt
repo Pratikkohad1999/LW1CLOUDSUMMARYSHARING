@@ -1,0 +1,15 @@
+1.In Today's session we got to know about deep-dive into terraform workspace,FAAS,lambda,cloudwatch,overview on autoscaling,and much more
+2.Cloudwatch provides multiple services like metrics and monitoring. It also provides a service for alarms. It could be integrated with tools like Prometheus , Splunk and much more.
+3.Auto Scaling could be setup in Kubernetes using parameter like CPU Usage and many others by which it would scale in or scale out Pods ,ASG is similar to replicaset and controller in kubernetes.
+4.For ASG first we have to create the launch configuration and where we have to mention all the attributes such as AMI, type, security group, user data, key pair, subnet and much more.
+5: Then we use these launch configuration to launch the ASG and these groups will automatically launch the instances and register them in AWScloud.
+6: We can add or remove auto scaling polices and actions we need also we can set the alarm using cloudwatch on monitored metric and  as something changes alarm will be raised.
+7. AWS Lambda: AWS Lambda is a Function-as-a-service computing platform provided by AWS. FaaS provides a computing platform to execute code in the cloud.
+8.User written  code and main function should be tested properly. For testing we need server. 
+9. Instead of going for on demand serverless service as fargate, we choose to go with FAAS (function as a service) which is provided by AWS Lambda. here we pay  as per function run time
+10.AWS Lambda gives auto scaling serviceand good for live streaming of data.
+11.Lambda functions  comes with a free tier of 1 million requests and 400,00 GB-seconds of compute time each month.
+12.After the free tier, it costs $0.20 per 1 million requests and $0.00001667 for every GB-seconds. The GB-seconds is based on the memory consumption of the Lambda function.
+13. If instance is in testing env user t2.micro and for prod use t2.small. create variable and use it on condition with the help of lookup()
+14  Terraform create workspace:- Creation of  two workspaces production & testing in terraform 
+15. Terraform select workspace:- use to Switch our workspace 

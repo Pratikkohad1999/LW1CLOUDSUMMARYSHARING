@@ -1,0 +1,17 @@
+1.In Today's session we got to know about kolla,kolla-ansible,NIC,Configuring kolla,configuring ALB and much more.
+2.Kolla provides tools to build container images for OpenStack services.
+2.1 Entire openstack cloud can be installed on top of docker container using kolla project. It is like reverse of magnum project. 
+3.Kolla Ansible provides Ansible playbooks to deploy the Kolla images.
+4.Kolla-Ansible is created on top of latest version of Python 3 and it is needed for setting up OpenStack over Docker
+5.Magnum is project that runs on top of OpenStack used for setting for COE like Kubernetes which uses Docker 
+6.Whereas in case of Kolla ,OpenStack is setup over Docker and Zun is project that is based on Container As A Service
+7.Directory for Kolla is /etc/kolla and could be used for storing important files obtained from installation of Kolla-Ansible, the reason for this setup is Kolla Project looks up for this files.
+8. In case of this setup , Inventory needs to be setup to localhost in Ansible as the setup is to be done in same system itself
+9.Zun is an OpenStack Container service. Latest OpenStack release is Ussuri. We performed this practical using CentOS 8 with HVM support. 
+10.And to perform this using this set-up minimum requirement is 8GB memory along with storage (depends upon the requirement).
+11.ALB(Application Load Balancer): The load balancer distributes incoming application traffic across multiple targets, such as EC2 instances, in multiple Availability Zones. 12.This increases the availability of your application. You add one or more listeners to your load balancer.
+13.Example:-FB has independent applications for chat, post, search and all applications are combined to form one application like Facebook.
+14.launched two instances for post.php and two instances for chat.php. Then provided chat.php & post.php with the target group inside the same VPC. 
+15.Set rules in ALB like IPforwarding and many others.(choose allowall)
+16.We can add extra network card for internal connectivity i.e. for OpenStack (Data Plane). 
+

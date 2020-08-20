@@ -1,0 +1,20 @@
+1. In today's session we saw the importance of Openstack magnum,overview on Cinder service,os_distro property ,Timestamp ( ),Substring function, Split function, for loops and much more.
+2.Magnum is a openstack service which is similar to EKS in AWS.
+3.The only difference is we can choose our own orchestration engine such as Kubernetes, docker swarm and soon.
+4.Openstack provides us IAAS and Magnum provides us PAAS . The Combination of both is called Hybrid Cloud.
+5.We configure the yum for Openstack queen so that we will have access to  11000 software that are available for use .
+6.There are basically two ways  to install Kubernetes that are as follows:-
+i. One is to go for manual way in which we need to install software in every node by ourself. 
+ii.Second  way is to use  self managed service like EKS.
+7.In AWS the cloud formation is one who will work as Infrastructure as code or a service. 
+8.But it will work only for AWS service but if we need for openstack, we need to use Terraform. 
+9.The configuration and setup for the requirement in packstack to create the cloud setup. We disabled some demo account so that we can access it using the admin account.
+10.We enabled the openstack services such as magnum and heat because magnum service uses heat orchestration so we enabled heat service so that our magnum service work easily.
+11.os_distro property : It set images as a optimised and thin for container. Behind the scene Magnum support this distro.
+12. Cinder service is used for providing storage to the instances.
+13.Timestamp ( ):-If we want to print the current time we can use timestamp function.
+14. Substring function:- for finding the substrings from main string 
+15. lookup function :-for finding the values from maps. 
+16. Split function splits the string into the list of values separated with that delimiters according to the delimiters .
+17.We have two ways to create the Map i. using {} braces ii. using the map function.
+18.for loops:- for loops is used for iteration and comprehension of list and map using for loops.
